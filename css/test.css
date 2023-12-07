@@ -239,6 +239,7 @@ footer .mobileonly{
 }
 .poplinks ul li.mid2 a{
   background: #2992c9;
+  border-bottom-right-radius: 30px;
   padding-right: 50px;
   padding-left: 50px;
 }
