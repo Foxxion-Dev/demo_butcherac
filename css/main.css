@@ -1,0 +1,916 @@
+@media only screen and (min-width: 1700px) {
+    .aboutbox .about{
+      height: 350px;
+    }
+}
+@media only screen and (min-width: 1900px) {
+    .aboutbox .about{
+      height: 380px;
+    }
+}
+@media only screen and (min-width: 2000px) {
+    .aboutbox .about{
+      height: 400px;
+    }
+}
+@media only screen and (min-width: 2200px) {
+    .aboutbox .about{
+      height: 450px;
+    }
+}
+@media only screen and (min-width: 2300px) {
+    .aboutbox .about{
+      height: 480px;
+    }
+}
+@media only screen and (min-width: 2600px) {
+    .aboutbox .about{
+      height: 500px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    #menu li {
+      font-size: 31px;
+    }
+    #menu{
+      padding-top: 70px;
+    }
+   .banner video{
+       height: 800px;
+    }
+    .banner .side{
+      width: 37%;
+    }
+    .banner .text h3{
+      font-size: 51px;
+    }
+    .banner .text h3 span{
+      font-size: 117px;
+    }
+    .banner .text .bottom h4 span{
+      font-size: 47px;
+    }
+    .banner .text .bottom h4{
+      font-size: 107px;
+    }
+    .banner .text .bottom p{
+       font-size: 51px;
+      line-height: 51px;
+    }
+    .banner .number h3{
+      font-size: 55px;
+    }
+    .banner .number h4{
+      font-size: 45px;
+    }
+    .banner .number p{
+      font-size: 63px;
+    }
+    .banner .btn-learn{
+      font-size: 38px;
+    }
+}
+@media only screen and (min-width: 1800px) {
+   .communitybox .wrap img{
+        width: 90%;
+    }
+    .communitybox .left.wrap .btn-set{
+        left: 90%;
+    }
+    .communitybox .right.wrap{
+      right: -10%;
+    }
+}
+
+@media only screen and ( max-width: 1446px ) {
+    .servicebox .city ul li {
+      width: 27%;
+    }
+}
+@media only screen and ( max-width: 1384px ) {
+  .banner .text{
+     top: 5%; 
+   }
+    .banner .side{
+      width: 48%;
+    }
+    .banner .text{
+      width: 60%;
+    }
+    .banner .text h3{
+      font-size: 31px;
+    }
+    .banner .text h3 span{
+      font-size: 97px;
+    }
+    .banner .number h3{
+      font-size: 35px;
+    }
+    .banner .number h4{
+       font-size: 25px;
+    }
+    .banner .number p{
+       font-size: 43px;
+    }
+    .banner .number{
+       padding: 15px 50px 20px 50px;
+    }
+}
+@media only screen and ( max-width: 1200px ) {
+  .communitybox .right.wrap p{
+    font-size: 13px;
+    width: 30%;
+    top: 15%;
+  }
+}
+@media only screen and ( max-width: 1154px ) {
+  .form-compute label{
+      font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1120px) {  
+  .slicknav_menu{
+	  display: none;
+  } 
+   #menu li:hover > ul {
+      display: block;
+      left: 0;
+      right: 0;
+   } 
+}
+@media only screen and ( max-width: 1199px ) and ( min-width: 992px )  {
+  .form-contact img{
+      height: auto;
+      margin-top: 4px;
+    }
+    .form-group{
+      left:-15px;
+    }
+}
+
+@media only screen and ( max-width: 1119px ) {  /* Start mobile */
+  #menu {
+   display:none;
+  }
+  .slicknav_menu .slicknav_icon-bar {
+      background: #fff!important;
+      margin-left: 15px;
+  }
+  .slicknav_btn {
+      background: #d03833 !important;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 0;
+      width: 55px;
+  }
+  .slicknav_menu{
+		display:block;
+        text-align: right;
+         margin: 0 !important;
+        padding: 0 !important;
+        width: 220px;
+        right: 0;
+        position: absolute;
+        top: 0;
+        z-index: 10000;
+        font-size: 25px;
+	}
+    .slicknav_menu a{
+      color: #263461;
+      text-transform: uppercase;
+      padding: 10px 0;
+    }
+    .slicknav_menu ul{
+      height: auto !important;
+      text-align: left;
+      background: #fff;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      padding: 10px 0;
+      margin-top: -15px;
+    }
+    .slicknav_menu li > a{
+      color: #263461;
+      text-align: right;
+      font-weight: 600;
+      padding: 3px 40px 3px 0;
+    }
+    .slicknav_menu li ul li a{
+      color: #263461;
+      border-bottom: none !important;
+      padding: 5px 0;
+      font-weight: 300;
+    }
+    .slicknav_arrow{
+      background: url(../images/bg_menu_dropdown_sub.webp) right center no-repeat !important;
+      background-size: 15px auto !important;
+      color: transparent;
+      padding-left: 11px;
+    }
+    .slicknav_btn {
+      display: inline-block;
+      float: none;
+      text-align: center;
+    }
+    .slicknav_parent,
+    .slicknav_nav .slicknav_row {
+      display: block;
+      height: auto !Important;
+    }
+    .slicknav_parent ul{
+      padding: 5px 0;
+      margin: 0;
+      border-radius: 0;
+    }
+    .slicknav_parent ul li a{
+      font-weight: 400px !important;
+    }
+    .slicknav_parent ul li,
+    .slicknav_parent ul li a{
+      padding: 0 44px 0 0;
+      margin: 0;
+    }
+    .slicknav_nav .slicknav_arrow {
+      font-size: inherit !important;
+    }
+    #prihead{
+      height: 130px;
+      padding: 20px 0;
+    }
+    #prihead .logo img{
+      width: 200px;
+      height: auto;
+    }
+    .jumplinks{
+      right: 0;
+      position: relative;
+    }
+    .jumplinks ul{
+      margin-bottom: 0;
+    }
+    .jumplinks ul li{
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    .jumplinks ul li a{
+      display: block;
+      border-radius: 0 !important;
+    }
+    .jumplinks ul li.call a img{
+      display: none;
+    }
+    footer .jumplinks{
+      display: none;
+    }
+    .moveout {
+      width: 330px;
+      height: 80%;
+      right: -330px;
+      top: 40%;
+    }
+    .moveout .handle img{
+      width: 35px;
+      height: auto;
+    }
+    .moveout .handle {
+      height: 80px;
+       width: 60px;
+      left: -60px;
+    }
+}
+@media only screen and ( max-width: 1280px ) {
+    .container-fluid{
+      padding-left: 50px !important;
+      padding-right: 50px !important;
+    }
+}
+@media only screen and ( max-width: 1215px ) {
+  .imageslide .row .wrap h4{
+     font-size: 25px;
+     padding-bottom: 10px;
+  }
+  .imageslide .row .btn-standard{
+    font-size: 18px;
+    margin: 15px 0;
+    padding: 12px 15px;
+  }
+  .imageslide .row .wrap p{
+    line-height: 20px;
+   }
+}
+
+@media only screen and (max-width: 1600px) {  
+    .aboutbox .about .inside{
+      padding: 40px 20px 40px 140px;
+    }
+   
+}
+@media only screen and ( max-width: 1554px ) and ( min-width: 1025px )  {
+  #menu{
+    padding-top: 30px;
+  }
+  #menu li {
+    font-size: 15px;
+    
+  }
+}
+@media only screen and ( max-width: 1549px ) and ( min-width: 992px )  {
+   .aboutbox .tv a img{
+      width: 100%;
+    }
+    .aboutbox .tv a span{
+     font-size: 20px;
+      left: 25%;
+    }
+}
+@media only screen and ( max-width: 1100px ) and ( min-width: 992px )  {
+.aboutbox .about p{
+     font-size: 12px !important;
+     line-height: 18px !important;
+  }
+   .aboutbox .about{
+    height: 200px !important; 
+  }
+  .aboutbox .about{
+      left: -50px !important;
+    }
+}
+@media only screen and (max-width: 1600px) {  
+  .aboutbox .about p{
+     font-size: 14px;
+     line-height: 26px;
+  }
+  .aboutbox .about{
+    height: 300px; 
+    left: -60px;
+   }
+  .aboutbox .about h3{
+    font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+  .aboutbox .about{
+    height: 260px; 
+  }
+  .aboutbox .about .inside{
+    padding: 30px 20px 20px 100px;
+   }
+  .aboutbox .about p{
+     font-size: 12px;
+     line-height: 23px;
+  } 
+  .imageslide .row .wrap h4,
+  .imageslide .row .wrap h2{
+    font-size: 20px;
+    }
+  .imageslide .row .wrap p{
+    font-size: 13px;
+    }
+  .imageslide .row .btn-standard{
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .aboutbox .about{
+    height: 230px; 
+  }
+  footer .car img{
+    width: 350px !important;
+    height: auto;
+  }
+}
+
+@media only screen and ( min-width: 992px ) {
+  .banner .side .text img.mobileonly{
+      display: none;
+    }
+      .imageslide .row{
+      display: flex;
+    }
+    .imageslide .row .rowtextleft ,
+    .imageslide .row .rowtextright{
+      display: flex;
+      flex-direction: row;
+      justify-content: center; /* align horizontal */
+      align-items: center; /* align vertical */
+    }
+    footer .car{
+      position: absolute;
+      right: 70px;
+      bottom: 50px;
+    }
+    footer .car img{
+      width: 500px;
+      height: auto;
+    }
+    footer .tagline{
+      position: absolute;
+      top: 100px;
+      left: 55%;
+      z-index: 2000;
+    }
+    footer .tagline img{
+      width: 300px;
+      height: auto;
+    }
+}
+@media only screen and ( max-width: 991px ) {
+  .banner .tagline,
+  .banner .number{
+      display: none;
+    }
+    .banner .side{
+     position: relative;
+      display: block;
+      top:0;
+      right: 0;
+      width: 100%;
+      height: 600px;
+      background: #fff url(../images/bg_logo_big.webp)right 0 no-repeat !important;
+      background-size: cover !important;
+    }
+    .banner .side .text{
+      width: 100%;
+      float: none;
+      text-align: center;
+    }
+    .banner .side .text img.mobileonly{
+      width: 190px;
+      height: auto;
+    }
+    .banner .side .text img.showbig{
+      display: none;
+    }
+    .banner .side .btn-learn{
+      background: #d03833;
+      color: #fff;
+      border-top: none;
+      margin: 20px auto;
+      display: inline-block;
+      border-radius: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 18px;
+      padding: 10px 15px;
+        }
+    .aboutbox .biglogopic{
+      display: none;
+    }
+  
+    .aboutbox .about{
+      left: 0;
+      margin-right: 0;
+      background: #d9d9d9;
+    } 
+     .gallery .row > [class*='col-']{
+      padding-bottom: 20px;
+    }
+    .aboutbox .tv a img{
+      margin-left: 20px;
+    }
+    .aboutbox .tv a span{
+      left: 30%;
+    }
+    .servicebox .map{
+      margin-top: 0;
+      padding-top: 50px;
+    }
+    .titlerow.side h3{
+      width: 100%;
+      float: none;
+      text-align: center;
+    }
+   .servicebox .city{
+      padding: 60px 0 30px 0;
+    }
+    .imageslide .rowtextright,
+    .imageslide .rowtextleft{
+       background-size: 100% 100%;
+    }
+    .imageslide .row .wrap{
+      padding: 50px 0;
+    }
+    .bannersub{
+      height: 200px;
+    }
+    .bannersub h1{
+      font-size: 25px;
+    }
+    .subintroblk .textblk{
+      padding: 50px 0 0 0;
+    }
+    .onlinepayblk header{
+      padding-top: 30px;
+    }
+    .onlinepayblk .subtext{
+      padding: 50px 20px 0 20px;
+    }
+    .articleblk [class*='col-']{
+      max-height: none;
+    }
+    .articleblk img{
+      width: 100%;
+    }
+    .breadcrumbs{
+      padding-left: 50px;
+    }    
+    .bgmainblk{
+      margin: 0;
+    }
+    .chooselink ul li{
+      line-height: 50px;
+      margin-bottom: 10px;
+    }
+    .articleblk .container-fluid{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .articleblk [class*='col-']{
+      height: none;
+    }
+    .articleblk .main h2{
+     font-size: 25px;
+      line-height: 30px;
+    }
+    .benefitsblk ul li{
+      width: 49%;
+    }
+    .subtextblk .bottomtext{
+      padding: 50px 0 50px 0;
+    }
+    .positionslider .sidephoto{
+      display: none;
+    }
+    .form-contact .form-group{
+      left: -50px;
+    }
+    .frblk{
+      padding-top: 30px;
+    }
+    .timeline {
+      background: none;
+    }
+    .event .line{
+      display: none;
+    }
+    .event .text{
+      padding-top: 30px;
+      padding-left: 30px;
+    }
+    .event img{
+      padding-bottom: 20px;
+      padding-top: 40px;
+      float: none !important;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .event h4{
+      position: relative;
+      top: 0;
+      margin-left: 0;
+      padding: 15px 40px;
+      font-size: 20px;
+      height: auto;
+      width: 100%;
+      text-align: center !important;
+    }
+    .event.left h4{
+      left: 0;
+    }
+    .event.right h4{
+       right: 0;
+    }
+    .event h4 strong{
+       font-size: 30px;
+    }
+    .event .text{
+      padding: 20px;
+    }
+    .form-compute{
+      padding: 30px 0;
+    }
+    .form-compute label{
+      border-radius: 15px;
+    }
+    .form-compute .form-group{
+      left: 0;
+    }
+    .testiblk .testigal .gallery [class*='col-'] {
+      width: 33%;
+      float : left;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .testiblk .testigal .wrapcontent .inside {
+      padding: 40px 20px;
+    }
+    .testiblk .testilist .testibox .wrap{
+      height: auto;
+    }
+    .communitybox .btn-set{
+      font-size: 15px;
+      width: 150px;
+    }
+    .communitybox .right.wrap .btn-set{
+     left: -150px !important;
+    }
+    .aboutbox .about {
+      height: auto;
+    }
+    .aboutbox .about .inside {
+      padding: 40px 40px 20px 50px;
+    }
+    footer{
+      padding: 0;
+      margin: 0;
+    }
+    footer .container-fluid{
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+    footer .car,
+    footer .tagline{
+      display: none;
+    }
+    footer img{
+      margin: 0 auto 15px auto;
+    }
+    footer .mainlogo{
+      padding-right: 0;
+    }
+     footer .wrap .mainlogo img{
+      width: 80%;
+      height: auto;
+    }
+    footer .wrap .logoside img{
+      width: auto;
+      height: 10%;
+      margin: 0 auto;
+      display: block;
+      padding: 15px 0;
+    }
+    footer .logoside{
+      border-left: none;
+      padding-left: 0;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    footer .wrap{
+     background: none;
+     padding: 0;
+    }
+    footer .mobileonly{
+      display: block;
+      padding-top: 100px;
+    }
+    footer .mobileonly img{
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+}
+@media only screen and ( max-width: 850px ) {
+ .slick-list{
+    width: 80%;
+    }
+  .titlestyle h3{
+      padding: 15px 50px;
+      font-size: 20px;
+    }
+   .photoquote blockquote{
+     font-size: 33px;
+     line-height: 58px;
+  }
+    .panel-title{
+     font-size: 20px;
+    }
+    .my-lightbox-nav-overlay{
+     
+    }
+    .my-lightbox-nav-overlay a{
+      font-size: 25px;
+      height: 100px;
+      width:30px;
+    }
+       .my-lightbox-nav-overlay a:first-child{
+       margin-left: -15px;
+    }
+    .my-lightbox-nav-overlay a:last-child{
+       margin-right: -15px;
+    }
+    .my-lightbox-item {
+      padding-left: 20px;
+      padding-right:20px;
+    }
+    .positionslider .sideslider h4{
+      font-size: 25px;
+    }
+    .positionslider .sideslider .wrap{  
+      width: 100%;
+      padding: 20px 10px;
+    }
+   
+     .carousel-inner .item {
+       padding: 10px ;
+    }
+    .banner video{
+      height: 450px !important;
+      width: auto;
+      object-fit: contain !important;
+    }
+      .imageslide .row .btn-standard{
+    font-size: 13px;
+    }
+    
+    
+}
+@media only screen and (min-width: 769px) {
+    .aboutbox .tv .bigscreenonly img:first-child{
+      position: relative;
+      z-index: 2000;
+    }
+    .aboutbox .tv .bigscreenonly img:nth-child(3){
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 90%;
+    }
+    .aboutbox .tv .bigscreenonly img:nth-child(2) {
+      display: none;
+    }
+    .aboutbox .tv .bigscreenonly{
+     padding-right: 50px;
+}
+    
+}
+@media only screen and (max-width: 768px) {
+    .aboutbox .tv .bigscreenonly img:first-child{
+      display: none;
+    }
+    .aboutbox .tv .bigscreenonly img:nth-child(2) {
+      position: relative;
+      z-index: 2000;
+      display: block;
+      margin: 0 auto;
+      top: 75px;
+      padding-bottom: 130px;
+      padding: 65px;
+    }
+    .aboutbox .tv .bigscreenonly img:nth-child(3){  /* thumbnail image */
+      top: 58%;
+      width: 70%;
+      height: auto;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .aboutbox .tv a img{
+       margin-left: 0;
+    }
+    .aboutbox .tv{
+      display: block;
+      position: relative;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .aboutbox .tv a span{
+      display: block;
+      background: #d03833;
+      font-size: 25px;
+      position: absolute;
+      z-index: 500;
+      width: 100%;
+      height: 180px;
+      left: 0;
+      margin: 0; 
+      top: 0;
+      text-align: center;
+      transform: none; 
+      padding: 40px 0 0 0;
+    }
+    .titlerow{
+      padding: 20px 0;
+    }
+    .titlerow h3{
+      font-size: 25px;
+    }
+    .articleblk .wrapimg img{
+      float: none;
+      padding: 0 0 15px 0;
+      width: 100%;
+    }
+    .articleblk .main [class*='col-']{
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    .carousel-inner .item {
+  height: 520px;
+    }
+     .testiblk .testigal .gallery img {
+      height: 120px;
+    }
+   
+    .tooltip {
+      display: none !important;
+    }
+}
+@media screen and (max-width: 767px) {
+  .form-contact img{
+     float:right;
+     padding-right: 30px;
+    }
+  .communitybox .wrap{
+     padding: 10px 0; 
+   }
+  .communitybox .wrap img{
+      width: 60%;
+    }
+    .communitybox .btn-set{
+      width: 200px;
+      background-color: rgba(208, 56, 51, 0.9); 
+
+    }
+  .communitybox .left.wrap img{
+      float: right;
+   }
+  .communitybox .wrap::after{
+     content: '';
+     clear: both;
+     overflow: auto;
+     display: table;
+    }
+    .communitybox .left.wrap {
+      padding-top: 20px
+    }
+    .communitybox .left.wrap .btn-set{
+      left: 0;
+      top: 30%;
+    }
+    .communitybox .right.wrap p{
+      display: none;
+    }
+    .communitybox .right.wrap{
+      right: auto;
+    }
+    .communitybox .right.wrap img{
+      float: left;
+   }
+    .communitybox .right.wrap .btn-set{
+      right: 0 !important;
+      left: auto !important;
+      bottom: 40%;
+    }
+   
+}
+
+@media screen and (max-width: 650px) {
+    .aboutbox .tv .bigscreenonly img:nth-child(3){
+    
+      
+    }
+}
+@media screen and (max-width: 600px) {
+    .slick-list{
+  width: 80%;
+    }
+   .container-fluid{
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+    .slick-arrow{
+     top: 30%;
+     }
+    .form-row .form-group{
+      left: -55px;
+    }
+    .aboutbox .tv .bigscreenonly img:nth-child(3){
+      top: 60%;
+    }
+     footer .logoside{
+      padding: 30px;
+    }
+  
+}
+
+@media screen and (max-width: 500px) {
+     .titlerow h3{
+      font-size: 22px;
+    }
+    .moveout {
+      width: 280px;
+      right: -280px;
+    }
+    .testibox .wrap {
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width: 450px) {
+     .aboutbox .tv .bigscreenonly img:nth-child(3){
+      top: 66%;
+    }
+}
+
+
