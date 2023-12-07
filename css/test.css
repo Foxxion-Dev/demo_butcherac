@@ -1,6 +1,4 @@
-/* --------------------------------------
-GLOBAL STYLES
------------------------------------------*/
+
 html{
     overflow-x: hidden;
     width: 100%;
@@ -15,7 +13,6 @@ body {
   position: relative;
 }
 
-/* Other fixes*/
 *,*:before,*:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -33,7 +30,8 @@ h1 , h2, h3, h4, h5{
   padding: 0;
 }
 p{ }
-/* LINKS */
+
+
 a{ }
 a:hover{ text-decoration: none;}
 
@@ -45,13 +43,13 @@ a:hover:before,a:hover:after {text-decoration:none;}
 
 
 
-/* IMG RESPONSIVE */
 img{
   display: block;
   max-width: 100%;
   height: auto;
 }
-/* INCREASE PADDING */
+
+
 .row.more-pad {
   margin-right:0;
   margin-left:0;
@@ -64,7 +62,7 @@ img{
   border-top: none !important;
   border-bottom: none !important;
 }
-/* NO PADDING */
+
 .row.nopadding > [class*='col-']{
   padding-right: 0;
   padding-left: 0;
@@ -92,7 +90,7 @@ img{
   background-size: 50% auto;
   min-height: 1000px;
 }
-/* Standard Settings */ 
+
 .standardset h2,
 .standardset h3,
 .standardset h4,
@@ -128,9 +126,7 @@ img{
   background-size: 30px auto;
 }
 
-/*---------------------------------------
-FORM                 
------------------------------------------*/
+
 .form-control{
   background: #f8fbff;
   height: 50px;
@@ -152,9 +148,8 @@ FORM
 .form-control::-webkit-input-placeholder {
   color: #263461;
 }
-/* --------------------------------------
-SECTION: POPLINKS
------------------------------------------*/
+
+
 .poplinks{
   position: fixed;
   top: 0;
@@ -216,9 +211,7 @@ SECTION: POPLINKS
 .poplinks ul li.last a:hover{ 
   background: #364a87;
 }
-/* --------------------------------------
-HEADER: MAINHEAD
------------------------------------------*/
+
 #mainhead{
   background: #fff url(../images/bg_header.webp) 0 0 repeat-x;
   border-top: 21px solid #263461;
@@ -228,7 +221,8 @@ HEADER: MAINHEAD
   padding-right: 60px;
   padding-left: 60px;
 }
-/* MENU */
+
+
 #menu{
   position: relative;
   z-index: 5000;
@@ -247,7 +241,8 @@ HEADER: MAINHEAD
   font-weight: bold;
   
 }
-/* first level */
+
+
 #menu > li {
   display: inline-block;
   text-transform: uppercase;
@@ -258,7 +253,8 @@ HEADER: MAINHEAD
   margin: 0 15px !important;
   padding: 0 !important;
 }
-/* second level */
+
+
 #menu li ul {
   display: none;
   position: absolute;
@@ -292,9 +288,8 @@ HEADER: MAINHEAD
 #menu li ul a:hover{
   color: #263461;
 }
-/* --------------------------------------
-SECTION: BANNER
------------------------------------------*/
+
+
 .banner{
   position: relative;
   height: 100%;
@@ -448,9 +443,6 @@ SECTION: BANNER
   display: inline-block;
 }
 
-/* --------------------------------------
-SECTION: MAINTEBLK
------------------------------------------*/
 .mainteblk .playvideo{
   background: #d03833;
   border-radius: 15px;
@@ -461,9 +453,7 @@ SECTION: MAINTEBLK
   padding-right: 30px;
   padding-left: 30px;
 }
-/* --------------------------------------
-LIGHTBOX
------------------------------------------*/
+
 .ekko-lightbox {
   z-index: 8000;
 }
@@ -495,7 +485,8 @@ LIGHTBOX
  z-index: 5000;
  
 }
-/* Customize the navigation arrows */
+
+
 .ekko-lightbox-nav-overlay{
 
 }
@@ -522,9 +513,8 @@ LIGHTBOX
 .ekko-lightbox-nav-overlay a:last-child{
    margin-right: -55px;
 }
-/* --------------------------------------
-SECTION: TESTIBLK
------------------------------------------*/
+
+
 .testiblk .testigal{
   margin: 10px 0 30px 0;
 }
@@ -568,9 +558,8 @@ SECTION: TESTIBLK
 .testiblk .testilist .testibox .wrap{
   height: 350px;
 }
-/* --------------------------------------
-SECTION: PHOTOLINKS
------------------------------------------*/
+
+
 .photolinks{
   margin: 20px 0;
 }
@@ -623,9 +612,8 @@ SECTION: PHOTOLINKS
   object-fit: cover;
   width: 100%;
 }
-/* --------------------------------------
-SECTION: ABOUTSTYLED
------------------------------------------*/
+
+
 .aboutstyled{
   margin: 50px 0;
 }
@@ -693,9 +681,8 @@ SECTION: ABOUTSTYLED
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* --------------------------------------
-Titlerow
------------------------------------------*/
+
+
 .titlerow{
   background: #d03833;
   padding: 40px 0;
@@ -728,9 +715,8 @@ Titlerow
   font-weight: normal;
   text-transform: none;
 }
-/* --------------------------------------
-SLIDEOUT
------------------------------------------*/
+
+
 .slideout {
   position: fixed;
   width: 450px;
@@ -738,7 +724,7 @@ SLIDEOUT
   right: -450px;
   top: 35%;
   z-index: 7000;
-  transition: right 0.5s ease; /* Transition for smooth sliding */
+  transition: right 0.5s ease; 
 }
 .slideout.active {
   right: 0;
@@ -791,9 +777,7 @@ SLIDEOUT
   display: none;
 }
 
-/* --------------------------------------
-Titlestyle
------------------------------------------*/
+
 .titlestyle{
   border-bottom: 2px solid #263461;
   text-align: center;
@@ -814,9 +798,8 @@ Titlestyle
   font-weight: bold;
   text-transform: uppercase;
 }
-/* --------------------------------------
-CAROUSELREVIEWS
------------------------------------------*/
+
+
 .carousel-reviews{
   background: #9acce6 url(../images/bg_customerreviews.webp) 0 0 repeat-x;
   padding: 40px 0;
@@ -887,9 +870,8 @@ testibox .wrap p{
   right: 0;
 }
 
-/* --------------------------------------
-SECTION: BANNERSUB
------------------------------------------*/
+
+
 .bannersub{
   height: 350px;
   position: relative;
@@ -967,9 +949,8 @@ SECTION: BANNERSUB
   width: 40px;
   height: auto;
 }
-/* --------------------------------------
-SECTION: PHOTOQUOTE
------------------------------------------*/
+
+
 .photoquote{
   padding: 50px 0;
 }
@@ -996,9 +977,8 @@ SECTION: PHOTOQUOTE
 .photoquote blockquote span{
   padding: 0 15px;
 }
-/* --------------------------------------
-SECTION: BENEFITSBLK
------------------------------------------*/
+
+
 .benefitsblk{
   background: url(../images/bg_gradient_sides.webp) 0 0 no-repeat;
   background-size: 100% 100%;
@@ -1031,9 +1011,8 @@ SECTION: BENEFITSBLK
   font-size: 20px;
   padding: 15px 0;
 }
-/* --------------------------------------
-SECTION: SUBTEXTBLK
------------------------------------------*/
+
+
 .subtextblk{
   padding: 30px 0 0 0;
   background: #fff;
@@ -1101,9 +1080,8 @@ SECTION: SUBTEXTBLK
  max-width: 690px;
  height: auto;
 }
-/* --------------------------------------
-SECTION: POSITIONSLIDER
------------------------------------------*/
+
+
 .positionslider{
   border-top: 48px solid #d03833;
 }
@@ -1187,15 +1165,14 @@ SECTION: POSITIONSLIDER
 }
 
 
-/* --------------------------------------
-SECTION: ARTICLEBLK
------------------------------------------*/
+
+
 .articleblk .container-fluid{
   padding: 60px 125px;
 }
 .articleblk [class*='col-']{
   padding-bottom: 40px;
- /* max-height: 560px; */
+  
 }
 .articleblk header{
   border-bottom: 1px solid #414d75;
@@ -1256,16 +1233,16 @@ SECTION: ARTICLEBLK
   float: left;
 }
 
-/* --------------------------------------
-BGMAINBLK
------------------------------------------*/
+
+
 .bgmainblk{
   background: #fff url(../images/bg_cloud.webp) 0 0 no-repeat;
   background-size: 100% auto;
   margin:  -1px 0 0 0;
   min-height: 700px;
 }
-/* BREADCRUMBS */
+
+
 .breadcrumbs{
   background-color: rgba(38, 52, 97, 0.3); 
   color: rgba(38, 52, 97, 0.3);
@@ -1314,7 +1291,7 @@ BGMAINBLK
   margin-right: 0;
   padding: 0;
 }
-/* CHOOSELINK */
+
 .chooselink{
   padding: 40px 0;
   text-align: center;
@@ -1346,9 +1323,7 @@ BGMAINBLK
   background: #263461;
   color: #fff;
 }
-/* --------------------------------------
-GALLERYBLK
------------------------------------------*/
+
 .galleryblk .container-fluid{
   padding: 80px 125px;
 }
@@ -1395,9 +1370,7 @@ GALLERYBLK
   background-color: rgba(208, 56, 51, 0.1); 
 color: rgba(208, 56, 51, 0.1);
 }
-/* --------------------------------------
-CONTACTBLK
------------------------------------------*/
+
 .contactblk{
   padding: 100px 0;
 }
@@ -1432,7 +1405,8 @@ CONTACTBLK
   color: #666;
   padding: 15px 0;
 }
-/* CONTACT FORM */
+
+
 .form-contact img{
   width: auto;
   height: 50px;
@@ -1477,7 +1451,8 @@ form .btn-submit{
 form .btn-submit:hover{
   background: #00a058;
 }
-/* FORM COMPUTE */
+
+
 .form-compute{
   padding: 30px 0 30px 20px;
 }
@@ -1550,9 +1525,8 @@ form .btn-submit:hover{
   position: relative;
   left: 0;
 }
-/* --------------------------------------
-ONLINEPAYBLK
------------------------------------------*/
+
+
 .onlinepayblk .container{
   padding-top: 80px;
   padding-bottom: 80px;
@@ -1579,13 +1553,13 @@ ONLINEPAYBLK
   font-size: 15px;
   color: #000;
 }
-/* --------------------------------------
-FAQBLK
------------------------------------------*/
+
+
 .faqblk .container-fluid{
   padding: 100px 125px;
 }
-/* ACCORDION */
+
+
 .panel-heading {
   position: relative;
   border-radius: 0 !important;
@@ -1660,16 +1634,7 @@ HISTORYBLK
    width: 100%;
    
 }
-/*
-.vertical-line{
-  width: 4px;
-  background-color: #263461;
-  left: 50%;
-  position: absolute;
-  z-index: 4000;
-  height: 100%;
-}
-*/
+
 
 .event {
   opacity: 0;
@@ -1691,8 +1656,8 @@ HISTORYBLK
     left: 50%;
     width: 2px;
     height: 0;
-    background-color: #263461; /* Adjust the color as needed */
-    transition: height 0.9s ease; /* Transition for the line growth */
+    background-color: #263461;
+    transition: height 0.9s ease;
     transform: translateX(-50%);
     transform-origin: top;
 }
@@ -1756,9 +1721,7 @@ HISTORYBLK
 }
 
 
-/* --------------------------------------
-COMBLK
------------------------------------------*/
+
 .comblk{
   background: url(../images/bg_gal.webp) 0 0 no-repeat;
   background-size: cover;
@@ -1819,9 +1782,8 @@ COMBLK
   max-width: 100%;
   height: auto;
 }
-/* --------------------------------------
-SECTION: SERVICEAREA
------------------------------------------*/
+
+
 .servicearea{
   background-color: #e2f2ff;
 }
@@ -1875,9 +1837,8 @@ SECTION: SERVICEAREA
   background-color: #d03833;
   border-radius: 50%;
 }
-/* --------------------------------------
-SECTION: PHOTOTEXTSIDE
------------------------------------------*/
+
+
 .phototextside .row{
   background-color: #9acce6;
 }
@@ -1935,9 +1896,8 @@ SECTION: PHOTOTEXTSIDE
 .phototextside .row .btn-standard:hover{
   color: #fff;
 }
-/* --------------------------------------
-SECTION: SUBINTROBLK
------------------------------------------*/
+
+
 .subintroblk{
   background: url(../images/bg_sub_intro.webp) 0 0 no-repeat;
   background-size: cover;
@@ -1971,9 +1931,8 @@ SECTION: SUBINTROBLK
   color: #000;
   padding-bottom: 15px;
 }
-/* --------------------------------------
-MAINCONTENT
------------------------------------------*/
+
+
 .tabscontent .nav-tabs {    
   border-color: #d03833;
   border-width: 0; 
@@ -2043,9 +2002,8 @@ MAINCONTENT
 
   background: #aa1e1a;
 }
-/* --------------------------------------
-TABSCONTENT
------------------------------------------*/
+
+
 .tabscontent{
   padding: 100px 0;
 }
@@ -2072,9 +2030,8 @@ TABSCONTENT
   text-transform: uppercase;
   margin: 25px 0;
 }
-/* --------------------------------------
-FOOTER
------------------------------------------*/
+
+
 footer{
   background: url(../images/bg_footer.webp) 0 0 repeat-x;
   border-top: 10px solid #263461;

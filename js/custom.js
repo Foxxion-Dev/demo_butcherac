@@ -12,7 +12,6 @@ $(document).ready(function(){
             audio.pause();
         });
     
-     // Main Menu
   if ($('#menu').length) {
     $('#menu').slicknav({
         allowParentLinks: true
@@ -23,18 +22,16 @@ $(document).ready(function(){
     $('#menu li:has(ul)').addClass('has-child');
   }
     
-     // slideout
-    if ($('.slideout').length) {
-         const slideout = document.querySelector('.slideout')
+  if ($('.slideout').length) {
+        const slideout = document.querySelector('.slideout')
 
-        const handle = slideout.querySelector('.handle')
+      const handle = slideout.querySelector('.handle')
 
-        handle.onclick = function() {
-          slideout.classList.toggle('active');
-        }
-    }
+      handle.onclick = function() {
+        slideout.classList.toggle('active');
+      }
+  }
     
-     // Tooltip
     if ($('[data-toggle="tooltip"]').length) {
      $('[data-toggle="tooltip"]').tooltip({
         trigger : 'hover'
@@ -42,7 +39,6 @@ $(document).ready(function(){
     }
     
        
-    // Lightbox
       if ($('[data-toggle="lightbox"]').length) {
        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
         event.preventDefault();
@@ -53,8 +49,6 @@ $(document).ready(function(){
        });
 
       }
-    
-    // Carousel
       if ($('.testireview').length) {
           
           $('.testireview').slick({
@@ -81,112 +75,89 @@ $(document).ready(function(){
                 slidesToScroll: 1
               }
             },
-          
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
           ]
         });
       }
   
-      // Handle the click event of the link
        if ($('#linkToApply').length) {
         $('#linkToApply').click(function() {
-            // Switch to Tab 2
             $('#mainNavTabs a[href="#tab2"]').tab('show');
         });
        }
     
-    // Hide elements on page load
       if ($('.hideanimate').length) {
         $('.hideanimate').css('opacity', 0);
       }
 
-        // Fade Banner Video
       if ($('.bannercall').length) {
         $('.bannercall').waypoint(function() {
           $(this.element).addClass('fadeInLeft');
         }, { offset: '90%' });
       }
-
-         // Fade Logo Pic
       if ($('.biglogopic').length) {
         $('.biglogopic').waypoint(function() {
           $(this.element).addClass('fadeInLeft');
         }, { offset: '70%' });
       }
-
-        // Fade Community Pic Left
       if ($('.communityleft').length) {
         $('.communityleft').waypoint(function() {
           $(this.element).addClass('fadeInLeft');
         }, { offset: '50%' });
       }
     
-   // Fade Community Pic Left
   if ($('.communityright').length) {
     $('.communityright').waypoint(function() {
       $(this.element).addClass('fadeInRight');
     }, { offset: '50%' });
   }
     
-   // Fade Service1
   if ($('.service1').length) {
     $('.service1').waypoint(function() {
       $(this.element).addClass('fadeInLeft');
     }, { offset: '70%' });
   }
     
-  // Fade Service2
   if ($('.service2').length) {
     $('.service2').waypoint(function() {
       $(this.element).addClass('fadeInRight');
     }, { offset: '70%' });
   }
     
-  // Fade Service3
   if ($('.service3').length) {
     $('.service3').waypoint(function() {
       $(this.element).addClass('fadeInLeft');
     }, { offset: '70%' });
   } 
   
-  // Fade Service3
   if ($('.service4').length) {
     $('.service4').waypoint(function() {
       $(this.element).addClass('fadeInRight');
     }, { offset: '70%' });
   } 
     
-  // Fade FooterLogo
   if ($('.footerlogo').length) {
     $('.footerlogo').waypoint(function() {
       $(this.element).addClass('fadeInRight');
     }, { offset: '90%' });
   }
-  
-    // Fade quote
   if ($('.quote').length) {
     $('.quote').waypoint(function() {
       $(this.element).addClass('fadeIn');
     }, { offset: '70%' });
   }
     
-   // Fade Benefits
   if ($('.benefitsblk').length) {
     $('.benefitsblk').waypoint(function() {
       $(this.element).addClass('fadeIn');
     }, { offset: '60%' });
   }
     
-   // Fade Logo 
   if ($('.imgcontainer').length) {
     $('.imgcontainer').waypoint(function() {
       $(this.element).addClass('fadeInLeft');
     }, { offset: '70%' });
   } 
-    
-   // Form Maintenance    
+      
    if ($('#form-maintenance').length) {
       UnitBasePrice =   parseInt($("input[name=unit_base_price]").val());
       UnitMultiplier =   parseInt($("input[name=unit_multiplier]").val());
