@@ -3,6 +3,30 @@ html{
     overflow-x: hidden;
     width: 100%;
 }
+
+
+.form-control{
+  background: #f8fbff;
+  height: 50px;
+  color: #263461;
+  font-size: 18px;
+  box-shadow: none;
+  border: 2px solid #7d82ac;
+  border-radius:                   10px;
+  -webkit-border-radius:            10px;
+  -moz-border-radius:               10px;
+}
+.form-control::-moz-placeholder {
+  color: #bcbec0;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #bcbec0;
+}
+.form-control::-webkit-input-placeholder {
+  color: #263461;
+}
+
 body {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -91,6 +115,46 @@ img{
   min-height: 1000px;
 }
 
+footer{
+  background: url(../images/bg_footer.webp) 0 0 repeat-x;
+  border-top: 10px solid #263461;
+  position: relative; 
+}
+footer .poplinks{
+  position: absolute;
+}
+footer .wrap{
+  background: url(../images/bg_footer_1.webp) right 0 no-repeat;
+  background-size: auto 100%;
+  min-height: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+footer .container-fluid{
+  padding-right: 80px;
+  padding-left: 80px;
+}
+footer .mainlogo{
+  padding-top: 50px;
+  padding-right:60px;
+}
+footer .logoside{
+  border-left: 1px solid #263461;
+  padding-left: 60px;
+   padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer .logoside .top{
+  padding-bottom: 35px;
+}
+footer .logoside .top img{
+  width: 80%;
+  height: auto;
+}
+footer .mobileonly{
+  display: none;
+}
+
 .standardset h2,
 .standardset h3,
 .standardset h4,
@@ -127,27 +191,6 @@ img{
 }
 
 
-.form-control{
-  background: #f8fbff;
-  height: 50px;
-  color: #263461;
-  font-size: 18px;
-  box-shadow: none;
-  border: 2px solid #7d82ac;
-  border-radius:                   10px;
-  -webkit-border-radius:            10px;
-  -moz-border-radius:               10px;
-}
-.form-control::-moz-placeholder {
-  color: #bcbec0;
-  opacity: 1;
-}
-.form-control:-ms-input-placeholder {
-  color: #bcbec0;
-}
-.form-control::-webkit-input-placeholder {
-  color: #263461;
-}
 
 
 .poplinks{
@@ -1966,7 +2009,7 @@ HISTORYBLK
 .tabscontent p{
   padding-left: 10px !important;
 }
-/* UL LIST */
+
 .maincontent ul {
     list-style-type: none;
     padding-left: 20px;
@@ -2032,43 +2075,5 @@ HISTORYBLK
 }
 
 
-footer{
-  background: url(../images/bg_footer.webp) 0 0 repeat-x;
-  border-top: 10px solid #263461;
-  position: relative; 
-}
-footer .poplinks{
-  position: absolute;
-}
-footer .wrap{
-  background: url(../images/bg_footer_1.webp) right 0 no-repeat;
-  background-size: auto 100%;
-  min-height: 300px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-footer .container-fluid{
-  padding-right: 80px;
-  padding-left: 80px;
-}
-footer .mainlogo{
-  padding-top: 50px;
-  padding-right:60px;
-}
-footer .logoside{
-  border-left: 1px solid #263461;
-  padding-left: 60px;
-   padding-top: 30px;
-  padding-bottom: 30px;
-}
-footer .logoside .top{
-  padding-bottom: 35px;
-}
-footer .logoside .top img{
-  width: 80%;
-  height: auto;
-}
-footer .mobileonly{
-  display: none;
-}
+
 
