@@ -454,7 +454,7 @@ img{
   padding-left: 30px;
 }
 
-.ekko-lightbox {
+.my-lightbox {
   z-index: 8000;
 }
 .modal-content{
@@ -471,32 +471,32 @@ img{
 .modal-header{
   border: none;
 }
-.ekko-lightbox .modal-footer {
+.my-lightbox .modal-footer {
   border: none;
   text-align: center !important;
   margin: 0;
   font-size: 30px;
   color: #fff;
 }
-.ekko-lightbox-item img{
+.my-lightbox-item img{
   border: 10px solid #263461;
 }
-.ekko-lightbox-container>div.ekko-lightbox-item {
+.my-lightbox-container>div.my-lightbox-item {
  z-index: 5000;
  
 }
 
 
-.ekko-lightbox-nav-overlay{
+.my-lightbox-nav-overlay{
 
 }
-.ekko-lightbox-nav-overlay a {
+.my-lightbox-nav-overlay a {
    opacity: 1;
 }
-.ekko-lightbox-nav-overlay a span {
+.my-lightbox-nav-overlay a span {
   padding: 0 18px;
 }
-.ekko-lightbox-nav-overlay a {
+.my-lightbox-nav-overlay a {
   height: 180px;
   background-color: #2992c9;
   border-radius: 15px;
@@ -504,13 +504,13 @@ img{
   top: 26%;
   position: relative;
 }
-.ekko-lightbox-nav-overlay a:hover {
+.my-lightbox-nav-overlay a:hover {
   background-color: #7fbcdd;
 }
-.ekko-lightbox-nav-overlay a:first-child{
+.my-lightbox-nav-overlay a:first-child{
    margin-left: -55px;
 }
-.ekko-lightbox-nav-overlay a:last-child{
+.my-lightbox-nav-overlay a:last-child{
    margin-right: -55px;
 }
 
