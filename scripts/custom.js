@@ -22,13 +22,13 @@ $(document).ready(function(){
     $('#menu li:has(ul)').addClass('has-child');
   }
     
-  if ($('.slideout').length) {
-        const slideout = document.querySelector('.slideout')
+  if ($('.moveout').length) {
+        const moveout = document.querySelector('.moveout')
 
-      const handle = slideout.querySelector('.handle')
+      const handle = moveout.querySelector('.handle')
 
       handle.onclick = function() {
-        slideout.classList.toggle('active');
+        moveout.classList.toggle('active');
       }
   }
     
@@ -172,24 +172,7 @@ $(document).ready(function(){
            computeTotalPrice();
        });
        
-       function computeTotalPrice() {
-           UnitTotal =   parseInt($("select[name=systems]").val());
-           TotalYears =  parseInt($("select[name=years]").val());
-           DiscountBase = 0.05;
-           
-           
-           discount = (TotalYears-1) * DiscountBase;
-           
-           
-           TotalPrice = (UnitBasePrice * UnitTotal) - ((UnitTotal * UnitMultiplier)-UnitMultiplier);
-           
-           if (discount > 0){
-               TotalPrice = Math.round(TotalPrice * (1-discount) * TotalYears);
-           }
-           
-           
-           $("input[name=price]").val('$'+TotalPrice);  
-       }
+
        
   }
     
